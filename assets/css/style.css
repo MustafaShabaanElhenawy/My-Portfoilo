@@ -1,6 +1,4 @@
-/-----------------------------------\
-  #CUSTOM PROPERTY
-\-----------------------------------/
+
 
 :root {
   /* gradient */
@@ -94,9 +92,7 @@
   --transition-2: 0.5s ease-in-out;
 }
 
-/-----------------------------------\
-  #RESET
-\-----------------------------------/
+
 
 *,
 *::before,
@@ -156,9 +152,7 @@ body {
   background: var(--smoky-black);
 }
 
-/-----------------------------------\
-  #REUSED STYLE
-\-----------------------------------/
+
 
 
 .sidebar,
@@ -304,8 +298,6 @@ article.active {
   z-index: -1;
 }
 
-/-----------------------------------\
-/* main */
 
 
 main {
@@ -315,8 +307,7 @@ main {
 }
 
 
-/-----------------------------------\
-/sidebar/
+
 
 
 
@@ -523,9 +514,7 @@ main {
   color: var(--orange-yellow-crayola);
 }
 
-/-----------------------------------\
-  #ABOUT
-\-----------------------------------/
+
 
 .about .article-title {
   margin-bottom: 15px;
@@ -601,9 +590,7 @@ main {
   line-height: 1.6;
 }
 
-/-----------------------------------\
-  #RESUME
-\-----------------------------------/
+
 
 .article-title {
   margin-bottom: 30px;
@@ -703,9 +690,7 @@ main {
 .skill .skills-list:nth-last-child(1) {
   margin-top: 20px;
 }
-/-----------------------------------\
-  #PORTFOLIO
-\-----------------------------------/
+
 
 .project-list {
   display: grid;
@@ -827,9 +812,7 @@ main {
 .projects .project-list .project-item #git:hover {
   color: var(--white-1);
 }
-/-----------------------------------\
-  #BLOG
-\-----------------------------------/
+
 
 .blog-posts {
   margin-bottom: 10px;
@@ -923,9 +906,6 @@ main {
 
 
 
-/-----------------------------------\
-  #CONTACT
-\-----------------------------------/
 
 .mapbox {
   position: relative;
@@ -1050,9 +1030,7 @@ textarea.form-input::-webkit-resizer {
   background: var(--bg-gradient-jet);
 }
 
-/-----------------------------------\
-  #RESPONSIVE
-\-----------------------------------/
+
 
 /**
  * responsive larger than 450px screen

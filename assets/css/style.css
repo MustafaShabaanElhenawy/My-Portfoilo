@@ -1,6 +1,6 @@
-/*-----------------------------------*\
+/-----------------------------------\
   #CUSTOM PROPERTY
-\*-----------------------------------*/
+\-----------------------------------/
 
 :root {
   /* gradient */
@@ -94,9 +94,9 @@
   --transition-2: 0.5s ease-in-out;
 }
 
-/*-----------------------------------*\
+/-----------------------------------\
   #RESET
-\*-----------------------------------*/
+\-----------------------------------/
 
 *,
 *::before,
@@ -156,9 +156,10 @@ body {
   background: var(--smoky-black);
 }
 
-/*-----------------------------------*\
+/-----------------------------------\
   #REUSED STYLE
-\*-----------------------------------*/
+\-----------------------------------/
+
 
 .sidebar,
 article {
@@ -264,8 +265,6 @@ article.active {
   border-radius: 3px;
 }
 
-
-
 .has-scrollbar::-webkit-scrollbar {
   width: 5px; /* for vertical scrollbar */
   height: 5px; /* for horizontal scrollbar */
@@ -305,9 +304,9 @@ article.active {
   z-index: -1;
 }
 
-/*-----------------------------------*/
+/-----------------------------------\
 /* main */
-/*-----------------------------------*/
+
 
 main {
   margin: 15px 12px;
@@ -315,16 +314,22 @@ main {
   min-width: 259px;
 }
 
-/*-----------------------------------*\
-  #SIDEBAR
-\*-----------------------------------*/
+
+/-----------------------------------\
+/sidebar/
+
+
+
+
+
+
 
 .sidebar {
   margin-bottom: 15px;
   max-height: 112px;
-  min-width:25%;
-  padding: 1000px;
+  overflow: hidden;
   transition: var(--transition-2);
+
 }
 
 .sidebar.active {
@@ -337,6 +342,7 @@ main {
   justify-content: flex-start;
   align-items: center;
   gap: 15px;
+  
 }
 
 .avatar-box {
@@ -374,6 +380,8 @@ main {
   box-shadow: var(--shadow-2);
   transition: var(--transition-1);
   z-index: 1;
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 .info_more-btn::before {
@@ -473,9 +481,10 @@ main {
   color: var(--vegas-gold);
   transition: 1s ease-in-out;
 }
-/*-----------------------------------*\
+
+/-----------------------------------\
   #NAVBAR
-\*-----------------------------------*/
+\-----------------------------------/
 
 .navbar {
   position: fixed;
@@ -514,9 +523,9 @@ main {
   color: var(--orange-yellow-crayola);
 }
 
-/*-----------------------------------*\
+/-----------------------------------\
   #ABOUT
-\*-----------------------------------*/
+\-----------------------------------/
 
 .about .article-title {
   margin-bottom: 15px;
@@ -592,9 +601,9 @@ main {
   line-height: 1.6;
 }
 
-/*-----------------------------------*\
+/-----------------------------------\
   #RESUME
-\*-----------------------------------*/
+\-----------------------------------/
 
 .article-title {
   margin-bottom: 30px;
@@ -694,9 +703,9 @@ main {
 .skill .skills-list:nth-last-child(1) {
   margin-top: 20px;
 }
-/*-----------------------------------*\
+/-----------------------------------\
   #PORTFOLIO
-\*-----------------------------------*/
+\-----------------------------------/
 
 .project-list {
   display: grid;
@@ -818,9 +827,9 @@ main {
 .projects .project-list .project-item #git:hover {
   color: var(--white-1);
 }
-/*-----------------------------------*\
+/-----------------------------------\
   #BLOG
-\*-----------------------------------*/
+\-----------------------------------/
 
 .blog-posts {
   margin-bottom: 10px;
@@ -914,9 +923,9 @@ main {
 
 
 
-/*-----------------------------------*\
+/-----------------------------------\
   #CONTACT
-\*-----------------------------------*/
+\-----------------------------------/
 
 .mapbox {
   position: relative;
@@ -1041,9 +1050,9 @@ textarea.form-input::-webkit-resizer {
   background: var(--bg-gradient-jet);
 }
 
-/*-----------------------------------*\
+/-----------------------------------\
   #RESPONSIVE
-\*-----------------------------------*/
+\-----------------------------------/
 
 /**
  * responsive larger than 450px screen
@@ -1099,7 +1108,7 @@ textarea.form-input::-webkit-resizer {
   article {
     width: 520px;
     margin-inline: auto;
-    padding: 30px;
+    padding: 15px;
   }
 
   .article-title {
